@@ -1,8 +1,8 @@
 # this is file 1 which has to be checked 
-file1 = open(r"/Users/swastika/Desktop/PFDS Project/Plagiarism_Detector.py/text1.txt")  
+file1 = open(r"/file_path/Plagiarism_Detector.py/text1.txt")  
 
  # this is file 2 which has to compared to 
-file2 = open(r"/Users/swastika/Desktop/PFDS Project/Plagiarism_Detector.py/text2.txt")
+file2 = open(r"/file_path/Plagiarism_Detector.py/text2.txt")
 
 # no of lines that are copied 
 sen=0 
@@ -27,6 +27,6 @@ for line in file1:
             print("copied sentence is :" ,i) 
             sen=sen+1
 
-#findingpercentage 
-percet=(sen/count)*100 
-print("percentage of plagiarism is :-> ",percet,"%")
+#finding percentage of plagiarism
+percent=(sen/count)*100 
+print("percentage of plagiarism is :-> ",percent,"%")
